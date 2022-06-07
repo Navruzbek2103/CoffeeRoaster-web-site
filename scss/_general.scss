@@ -1,0 +1,18 @@
+html{
+  scroll-behavior: smooth;
+}
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+}
+img{
+  vertical-align: middle;
+}
+ul, ol{
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
