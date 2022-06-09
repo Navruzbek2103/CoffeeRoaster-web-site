@@ -1,0 +1,111 @@
+.process{
+  padding: 351px 0 200px 0;
+
+  .process-inner-container{
+    max-width: 1151px;
+  }
+  &__title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: $grey;
+    margin-bottom: 80px;
+  }
+
+  &__list{
+    margin-bottom: 64px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item{
+    width: 350px;
+  }
+
+  &__item-line{
+    position: relative;
+    margin-bottom: 67px;
+  }
+
+  &__item-line::before{
+    content: "";
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    border: 2px solid $dark-cyan;
+    border-radius: 50%;
+    background-color: $light-cream;
+    z-index: 1;
+  }
+
+  &__item-line::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    background-color: $pale-orange;
+  }
+  &__item:last-child &__item-line::after{
+    display: none;
+  }
+
+  &__item-inner{
+    width: 285px;
+
+  }
+
+  &__item-title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: $pale-orange;
+    margin-bottom: 38px;
+  }
+
+  &__item-subtitle{
+    padding-right: 30px;
+    margin-bottom: 42px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: $dark-grey;
+  }
+
+  &__item-subtext{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $dark-grey;
+  }
+
+  .button{
+    border: none;
+    background-color: $dark-cyan;
+    border-radius: 6px;
+    padding: 16px 31px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: $light-cream;
+  }
+  .button:hover{
+    background-color: $button-hover;
+  }
+  .button:active{
+    background-color: $button-active;
+  }
+}

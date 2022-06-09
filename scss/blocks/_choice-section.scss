@@ -1,0 +1,106 @@
+.choice{
+  &__container{
+    width: 100%;
+    position: relative;
+    padding: 100px 85px 320px;
+    background-color: $very-dark-grey;
+    border-radius: 10px;
+
+  }
+
+  &__container-wrap{
+    width: 540px;
+    margin: 0 auto;
+  }
+
+  &__wrap-title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    text-align: center;
+    color: #FEFCF7;
+    margin-bottom: 32px;
+  }
+
+  &__wrap-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+    opacity: 0.8;
+  }
+
+  &__list{
+    position: absolute;
+    top: 346px;
+    left: 85px;
+    display: flex;
+
+  }
+
+  &__item{
+    margin-right: 30px;
+    width: 350px;
+    padding: 72px 48px 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 8px;
+    background-color: $dark-cyan;
+
+    &::before{
+      content: "";
+      width: 72px;
+      height: 72px;
+      display: inline-block;
+      margin-bottom: 56px;
+      background-repeat: no-repeat;
+      background-size: contain;
+      background-position: center;
+    }
+
+    &:nth-child(1)::before{
+      background-image: url("./../../images/best-quality.svg");
+    }
+
+    &:nth-child(2)::before{
+      background-image: url("./../../images/exclusive-benefits.svg");
+    }
+
+    &:nth-child(3)::before{
+      background-image: url("./../../images/exclusive-benefits.svg");
+    }
+  }
+
+  &__item-title{
+    margin-bottom: 24px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    text-align: center;
+    color: #FEFCF7;
+  }
+
+  &__item-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    text-align: center;
+    color: #FEFCF7;
+  }
+
+
+
+
+
+
+}

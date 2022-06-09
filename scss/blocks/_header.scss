@@ -1,14 +1,36 @@
-header{
-  width: 100%;
-  height: 400px;
-  background-color: $orange;
-  h2.header__title{
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    padding-top: 100px;
-    color: $aqua;
-    text-shadow: 0 0 4px black;
-    font-size: $f-size1;
+.header{
+
+  &__container {
+    padding: 43px 0;
+    display: flex;
+  }
+  &__logo-link{
+    text-decoration: none;
+    margin-right: auto;
+
+  }
+  &__logo-img{
+    width: 236px;
+    height: 26px;
+  }
+
+  .nav{
+    &__list{
+      display: flex;
+    }
+    &__link{
+      text-decoration: none;
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 15px;
+      letter-spacing: 0.923077px;
+      text-transform: uppercase;
+      color: $grey;
+    }
+    &__item:nth-child(2){
+      margin: 0 32px;
+    }
   }
 }
