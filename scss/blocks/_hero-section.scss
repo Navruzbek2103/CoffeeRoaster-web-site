@@ -1,7 +1,7 @@
 .hero{
   .container-hero{
     padding: 117px 85px;
-    background-image: url("./../../images/hero-img.jpg");
+    background-image: url("./../../images/index-hero-img.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
@@ -30,6 +30,7 @@
   }
 }
 .button{
+  border: none;
   background-color: $dark-cyan;
   border-radius: 6px;
   padding: 16px 31px;

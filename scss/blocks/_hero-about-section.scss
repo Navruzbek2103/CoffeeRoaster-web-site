@@ -1,0 +1,33 @@
+.hero-about{
+  &__container{
+    background-image: url("./../../images/about-hero-img.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 137px 85px;
+    border-radius: 10px;
+  }
+
+  &__wrapper{
+    width: 445px;
+  }
+
+  &__wrapper-title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: $light-cream;
+    margin-bottom: 24px;
+  }
+
+  &__wrapper-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $light-cream;
+  }
+}

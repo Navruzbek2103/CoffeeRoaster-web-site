@@ -482,7 +482,7 @@ ul, ol {
 
 .hero .container-hero {
   padding: 117px 85px;
-  background-image: url("./../../images/hero-img.jpg");
+  background-image: url("./../../images/index-hero-img.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -514,6 +514,7 @@ ul, ol {
 }
 
 .button {
+  border: none;
   background-color: #0E8784;
   border-radius: 6px;
   padding: 16px 31px;
@@ -863,5 +864,208 @@ ul, ol {
 .footer__icon-item-img {
   width: 24px;
   height: 24px;
+}
+
+.hero-about__container {
+  background-image: url("./../../images/about-hero-img.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 137px 85px;
+  border-radius: 10px;
+}
+
+.hero-about__wrapper {
+  width: 445px;
+}
+
+.hero-about__wrapper-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 24px;
+}
+
+.hero-about__wrapper-text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.commitment {
+  padding: 168px 0;
+}
+
+.commitment__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  max-width: 1110px;
+  margin: 0 auto;
+}
+
+.commitment__container-img {
+  max-width: 445px;
+  width: 100%;
+  max-height: 520px;
+}
+
+.commitment__container-box {
+  max-width: 540px;
+}
+
+.commitment__box-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-bottom: 32px;
+}
+
+.commitment__box-text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  opacity: 0.8;
+  padding-right: 1px;
+}
+
+.quality {
+  padding-top: 88px;
+}
+
+.quality__container {
+  background-color: #2C343E;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 88px 85px;
+}
+
+.quality__container-box {
+  max-width: 540px;
+  width: 100%;
+}
+
+.quality__box-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  margin-bottom: 32px;
+}
+
+.quality__box-text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  opacity: 0.8;
+}
+
+.quality__container-img {
+  margin-top: -172px;
+  max-width: 445px;
+  width: 100%;
+  border-radius: 8px;
+}
+
+.headquarters {
+  padding: 168px 0;
+}
+
+.headquarters__container {
+  margin-left: 85px;
+  max-width: 1045px;
+}
+
+.headquarters__container-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+  margin-bottom: 72px;
+}
+
+.headquarters__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headquarters__item {
+  width: 285px;
+}
+
+.headquarters__item-subtitle {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #333D4B;
+  margin-bottom: 24px;
+}
+
+.headquarters .item__info-item {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+}
+
+.headquarters__item::before {
+  content: "";
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  margin-bottom: 48px;
+}
+
+.headquarters__item:nth-child(1)::before {
+  background-image: url("./../../images/about-uk-map.svg");
+}
+
+.headquarters__item:nth-child(2)::before {
+  background-image: url("./../../images/about-canada-map.svg");
+}
+
+.headquarters__item:nth-child(3)::before {
+  background-image: url("./../../images/about-australia-map.svg");
 }
 /*# sourceMappingURL=main.css.map */

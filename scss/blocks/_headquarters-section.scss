@@ -1,0 +1,71 @@
+.headquarters{
+  padding: 168px 0;
+
+  &__container{
+    margin-left: 85px;
+    max-width: 1045px;
+  }
+
+  &__container-title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: $grey;
+    margin-bottom: 72px;
+  }
+
+  &__list{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item{
+    width: 285px;
+  }
+
+  &__item-subtitle{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: $dark-grey;
+    margin-bottom: 24px;
+  }
+
+  .item{
+    &__info-item{
+      font-family: 'Barlow';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: $dark-grey;
+    }
+  }
+
+  &__item::before{
+    content: "";
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    margin-bottom: 48px;
+  }
+
+  &__item:nth-child(1)::before{
+    background-image: url("./../../images/about-uk-map.svg");
+  }
+
+  &__item:nth-child(2)::before{
+    background-image: url("./../../images/about-canada-map.svg");
+  }
+
+  &__item:nth-child(3)::before{
+    background-image: url("./../../images/about-australia-map.svg");
+  }
+}

@@ -1,0 +1,43 @@
+.quality{
+  padding-top: 88px;
+  &__container{
+    background-color: $very-dark-grey;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    padding: 88px 85px;
+  }
+
+  &__container-box{
+    max-width: 540px;
+    width: 100%;
+  }
+
+  &__box-title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: $light-cream;
+    margin-bottom: 32px;
+  }
+
+  &__box-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $light-cream;
+    opacity: 0.8;
+  }
+
+  &__container-img{
+    margin-top: -172px;
+    max-width: 445px;
+    width: 100%;
+
+    border-radius: 8px;
+  }
+}

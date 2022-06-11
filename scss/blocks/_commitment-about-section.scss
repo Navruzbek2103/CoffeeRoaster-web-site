@@ -1,0 +1,41 @@
+.commitment{
+  padding: 168px 0;
+
+  &__container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1110px;
+    margin: 0 auto;
+  }
+
+  &__container-img{
+    max-width: 445px;
+    width: 100%;
+    max-height: 520px;
+  }
+  &__container-box{
+    max-width: 540px;
+  }
+
+  &__box-title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 48px;
+    color: $dark-grey;
+    margin-bottom: 32px;
+  }
+
+  &__box-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $dark-grey;
+    opacity: 0.8;
+    padding-right: 1px;
+  }
+}
