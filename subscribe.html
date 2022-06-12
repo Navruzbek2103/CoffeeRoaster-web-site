@@ -91,35 +91,247 @@
 
     <section class="choice-subscribe">
       <h2 class="visually-hidden">This section name is choice subscribe</h2>
-      <div class="container">
+      <div class="container choice-subscribe__inner-wrapper">
         <div class="choice-subscribe__container">
-          <ul class="choice-subscribe__left-list">
-            <li class="choice-subscribe__left-item">
-              <h3 class="choice-subscribe__left-item-title"><span class="choice-subscribe__left-item-span">01</span>Preferences</h3>
-            </li>
+          <div class="choice-subscribe__left">
+            <ul class="choice-subscribe__left-list">
+              <li class="choice-subscribe__left-item">
+                <a href="#" class="choice-subscribe__left-link">
+                  <span class="choice-subscribe__left-number">01</span>
+                  <span class="choice-subscribe__left-text">Preferences</span>
+                </a>
+              </li>
 
-            <li class="choice-subscribe__left-item">
-              <h3 class="choice-subscribe__left-item-title"><span class="choice-subscribe__left-item-span">02</span>Been type</h3>
-            </li>
+              <li class="choice-subscribe__left-item">
+                <a href="#" class="choice-subscribe__left-link">
+                  <span class="choice-subscribe__left-number">02</span>
+                  <span class="choice-subscribe__left-text">Bean type</span>
+                </a>
+              </li>
 
-            <li class="choice-subscribe__left-item">
-              <h3 class="choice-subscribe__left-item-title"><span class="choice-subscribe__left-item-span">03</span>Quantity</h3>
-            </li>
+              <li class="choice-subscribe__left-item">
+                <a href="#" class="choice-subscribe__left-link">
+                  <span class="choice-subscribe__left-number">03</span>
+                  <span class="choice-subscribe__left-text">Quantity</span>
+                </a>
+              </li>
 
-            <li class="choice-subscribe__left-item">
-              <h3 class="choice-subscribe__left-item-title"><span class="choice-subscribe__left-item-span">04</span>Grind option</h3>
-            </li>
+              <li class="choice-subscribe__left-item">
+                <a href="#" class="choice-subscribe__left-link">
+                  <span class="choice-subscribe__left-number">04</span>
+                  <span class="choice-subscribe__left-text">Grind option</span>
+                </a>
+              </li>
 
-            <li class="choice-subscribe__left-item">
-              <h3 class="choice-subscribe__left-item-title"><span class="choice-subscribe__left-item-span">05</span>Deliveries</h3>
-            </li>
-          </ul>
-          <!-- <ul class="choice-subscribe__right-list">
+              <li class="choice-subscribe__left-item choice-subscribe__left-item--active">
+                <a href="#" class="choice-subscribe__left-link">
+                  <span class="choice-subscribe__left-number">05</span>
+                  <span class="choice-subscribe__left-text">Deliveries</span>
+                </a>
+              </li>
 
-          </ul> -->
+
+            </ul>
+          </div>
+
+          <form action="https://echo.htmlacademy.ru/" class="choice-subscribe__right">
+            <ul class="choice-subscribe__right-list">
+              <li class="choice-subscribe__right-item  choice-subscribe__right-item--active">
+                <div class="choice-subscribe__right-top">
+                  <h3 class="choice-subscribe__right-heading">How do you drink your coffee?</h3>
+
+                  <button class="choice-subscribe__right-btn"></button>
+                </div>
+
+                <div class="choice-subscribe__right-bottom">
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Capsule</span>
+                      <span class="choice-subscribe__input-text">Compatible with Nespresso systems and similar brewers</span>
+                    </span>
+                  </label>
+
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Filter</span>
+                      <span class="choice-subscribe__input-text">For pour over or drip methods like Aeropress, Chemex, and V60</span>
+                    </span>
+                  </label>
+
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Espresso</span>
+                      <span class="choice-subscribe__input-text">Dense and finely ground beans for an intense, flavorful experience</span>
+                    </span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="choice-subscribe__right-item  choice-subscribe__right-item--active">
+                <div class="choice-subscribe__right-top">
+                  <h3 class="choice-subscribe__right-heading">What type of coffee?</h3>
+
+                  <button class="choice-subscribe__right-btn"></button>
+                </div>
+
+                <div class="choice-subscribe__right-bottom">
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Single Origin</span>
+                      <span class="choice-subscribe__input-text">Distinct, high quality coffee from a specific family-owned farm</span>
+                    </span>
+                  </label>
+
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Decaf</span>
+                      <span class="choice-subscribe__input-text">Just like regular coffee, except the caffeine has been removed</span>
+                    </span>
+                  </label>
+
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Blended</span>
+                      <span class="choice-subscribe__input-text">Combination of two or three dark roasted beans of organic coffees</span>
+                    </span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="choice-subscribe__right-item  choice-subscribe__right-item--active">
+                <div class="choice-subscribe__right-top">
+                  <h3 class="choice-subscribe__right-heading">How much would you like?</h3>
+
+                  <button class="choice-subscribe__right-btn"></button>
+                </div>
+
+                <div class="choice-subscribe__right-bottom">
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">250g</span>
+                      <span class="choice-subscribe__input-text">Perfect for the solo drinker. Yields about 12 delicious cups.</span>
+                    </span>
+                  </label>
+
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">500g</span>
+                      <span class="choice-subscribe__input-text">Perfect option for a couple. Yields about 40 delectable cups.</span>
+                    </span>
+                  </label>
+
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">1000g</span>
+                      <span class="choice-subscribe__input-text">Perfect for offices and events. Yields about 90 delightful cups.</span>
+                    </span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="choice-subscribe__right-item  choice-subscribe__right-item--active">
+                <div class="choice-subscribe__right-top">
+                  <h3 class="choice-subscribe__right-heading">Want us to grind them?</h3>
+
+                  <button class="choice-subscribe__right-btn"></button>
+                </div>
+
+                <div class="choice-subscribe__right-bottom">
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Wholebean</span>
+                      <span class="choice-subscribe__input-text">Best choice if you cherish the full sensory experience</span>
+                    </span>
+                  </label>
+
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Filter</span>
+                      <span class="choice-subscribe__input-text">For drip or pour-over coffee methods such as V60 or Aeropress</span>
+                    </span>
+                  </label>
+
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Cafetiére</span>
+                      <span class="choice-subscribe__input-text">Course ground beans specially suited for french press coffee</span>
+                    </span>
+                  </label>
+                </div>
+              </li>
+
+              <li class="choice-subscribe__right-item  choice-subscribe__right-item--active">
+                <div class="choice-subscribe__right-top">
+                  <h3 class="choice-subscribe__right-heading">How often should we deliver?</h3>
+
+                  <button class="choice-subscribe__right-btn"></button>
+                </div>
+
+                <div class="choice-subscribe__right-bottom">
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Every week</span>
+                      <span class="choice-subscribe__input-text">$7.20 per shipment. Includes free first-class shipping.</span>
+                    </span>
+                  </label>
+
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Every 2 weeks</span>
+                      <span class="choice-subscribe__input-text">$9.60 per shipment. Includes free priority shipping.</span>
+                    </span>
+                  </label>
+
+                  <label class="choice-subscribe__right-label">
+                    <input type="radio" class="choice-subscribe__right-input" name="coffee how" value="Capsule">
+
+                    <span class="choice-subscribe__input-wrapper">
+                      <span class="choice-subscribe__input-heading">Every month</span>
+                      <span class="choice-subscribe__input-text">$12.00 per shipment. Includes free priority shipping.</span>
+                    </span>
+                  </label>
+                </div>
+              </li>
+            </ul>
+            <div class="choice-subscribe__result">
+              <p class="choice-subscribe__result-heading">Order summary</p>
+              <p class="choice-subscribe__result-text">“I drink my coffee as <span class="choice-subscribe__result-span">Filter</span>, with a <span class="choice-subscribe__result-span">Decaf</span> type of bean. <span class="choice-subscribe__result-span">250g</span> ground ala <span class="choice-subscribe__result-span">Cafetiére</span>, sent to me <span class="choice-subscribe__result-span">Every Week</span>.”</p>
+            </div>
+            <button class="button subscribe-btn">Create your plan</button>
+
+          </form>
         </div>
       </div>
     </section>
+
 
 
   </main>
