@@ -401,6 +401,7 @@ body {
   font-family: 'Fraunces';
   font-size: 16px;
   height: 100%;
+  background-color: #FEFCF7;
 }
 
 main {
@@ -830,7 +831,7 @@ ul, ol {
 }
 
 .footer__list {
-  width: 283px;
+  min-width: 283px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -1067,5 +1068,162 @@ ul, ol {
 
 .headquarters__item:nth-child(3)::before {
   background-image: url("./../../images/about-australia-map.svg");
+}
+
+.hero-subscribe {
+  margin-bottom: 177px;
+}
+
+.hero-subscribe__container {
+  background-image: url("./../../images/subscribe-hero-img.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 134px 85px;
+  border-radius: 10px;
+}
+
+.hero-subscribe__wrapper {
+  width: 486px;
+}
+
+.hero-subscribe__wrapper-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FEFCF7;
+  margin-bottom: 24px;
+}
+
+.hero-subscribe__wrapper-text {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  opacity: 0.8;
+  color: #FEFCF7;
+}
+
+.plan-subscribe {
+  margin-bottom: 159px;
+}
+
+.plan-subscribe__list {
+  padding: 91px 85px 107px 85px;
+  background-color: #2C343E;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.plan-subscribe__item {
+  width: calc(100% / 3);
+}
+
+.plan-subscribe__item-line {
+  position: relative;
+  margin-bottom: 67px;
+}
+
+.plan-subscribe__item-line::before {
+  content: "";
+  width: 31px;
+  height: 31px;
+  display: inline-block;
+  border: 2px solid #0E8784;
+  border-radius: 50%;
+}
+
+.plan-subscribe__item-line::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 16px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  width: 100%;
+  height: 2px;
+  display: inline-block;
+  background-color: #FDD6BA;
+}
+
+.plan-subscribe__item:nth-child(3) .plan-subscribe__item-line::after {
+  display: none;
+}
+
+.plan-subscribe__item-box {
+  width: 285px;
+}
+
+.plan-subscribe__item-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 72px;
+  color: #FDD6BA;
+  margin-bottom: 38px;
+}
+
+.plan-subscribe__item-subtitle {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 36px;
+  color: #FEFCF7;
+  padding-right: 18px;
+  margin-bottom: 42px;
+}
+
+.plan-subscribe__item-subtext {
+  font-family: 'Barlow';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+}
+
+.choice-subscribe__container {
+  padding: 0 85px;
+  margin-bottom: 168px;
+}
+
+.choice-subscribe__left-list {
+  width: 255px;
+}
+
+.choice-subscribe__left-item {
+  border-bottom: 1px solid #83888F;
+  opacity: 0.25;
+}
+
+.choice-subscribe__left-item-title {
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #333D4B;
+  margin: 24px 0;
+}
+
+.choice-subscribe__left-item-span {
+  color: #83888F;
+  margin-right: 25px;
+}
+
+.choice-subscribe__left-item:last-child {
+  border: none;
+  opacity: 1;
+}
+
+.choice-subscribe__left-item:first-child .choice-subscribe__left-item-span {
+  color: #0E8784;
 }
 /*# sourceMappingURL=main.css.map */

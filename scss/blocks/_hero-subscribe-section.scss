@@ -1,0 +1,37 @@
+.hero-subscribe{
+  margin-bottom: 177px;
+
+  &__container{
+    background-image: url("./../../images/subscribe-hero-img.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 134px 85px;
+    border-radius: 10px;
+  }
+
+  &__wrapper{
+    width: 486px;
+  }
+
+  &__wrapper-title {
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: $light-cream;
+    margin-bottom: 24px;
+  }
+
+  &__wrapper-text{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    opacity: 0.8;
+    color: $light-cream;
+  }
+
+}

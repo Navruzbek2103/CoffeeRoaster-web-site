@@ -1,0 +1,41 @@
+.choice-subscribe{
+  &__container{
+    padding: 0 85px;
+    margin-bottom: 168px;
+    // background-color: aqua;
+  }
+
+  &__left-list{
+    // background-color: bisque;
+    width: 255px;
+  }
+
+  &__left-item{
+    border-bottom: 1px solid #83888F;
+    opacity: 0.25;
+  }
+
+  &__left-item-title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 32px;
+    color: $dark-grey;
+    margin: 24px 0;
+  }
+
+  &__left-item-span{
+    color: $grey;
+    margin-right: 25px;
+  }
+
+  &__left-item:last-child{
+    border: none;
+    opacity: 1;
+  }
+
+  &__left-item:first-child &__left-item-span{
+    color: $dark-cyan;
+  }
+}

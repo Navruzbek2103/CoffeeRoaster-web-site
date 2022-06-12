@@ -1,0 +1,78 @@
+.plan-subscribe{
+  margin-bottom: 159px;
+
+  &__list{
+    padding: 91px 85px 107px 85px;
+    background-color: $very-dark-grey;
+    border-radius: 10px;
+    display: flex;
+  }
+
+  &__item{
+    width: calc(100% / 3);
+  }
+
+  &__item-line{
+    position: relative;
+    margin-bottom: 67px;
+  }
+
+  &__item-line::before{
+    content: "";
+    width: 31px;
+    height: 31px;
+    display: inline-block;
+    border: 2px solid $dark-cyan;
+    border-radius: 50%;
+  }
+
+  &__item-line::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 16px;
+    transform: translateY(-50%);
+    width: 100%;
+    height: 2px;
+    display: inline-block;
+    background-color: $pale-orange;
+  }
+
+  &__item:nth-child(3) &__item-line::after{
+    display: none;
+  }
+
+  &__item-box{
+    width: 285px;
+  }
+
+  &__item-title{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 72px;
+    color: $pale-orange;
+    margin-bottom: 38px;
+  }
+
+  &__item-subtitle{
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 36px;
+    color: $light-cream;
+    padding-right: 18px;
+    margin-bottom: 42px;
+  }
+
+  &__item-subtext{
+    font-family: 'Barlow';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: $light-cream;
+  }
+}
