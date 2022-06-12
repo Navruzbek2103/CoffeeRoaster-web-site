@@ -1042,7 +1042,10 @@ ul, ol {
     margin-bottom: 30px;
   }
   .footer__container-link {
-    margin-bottom: 35px;
+    margin-bottom: 30px;
+  }
+  .footer__list {
+    margin-top: 20px;
   }
   .footer__item:not(:last-child) {
     margin-right: 15px;

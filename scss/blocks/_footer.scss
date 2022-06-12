@@ -116,9 +116,12 @@
     }
 
     &__container-link{
-      margin-bottom: 35px;
+      margin-bottom: 30px;
     }
 
+    &__list{
+      margin-top: 20px;
+    }
     &__item:not(:last-child){
       margin-right: 15px;
     }
