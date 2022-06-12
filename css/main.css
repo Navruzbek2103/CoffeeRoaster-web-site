@@ -401,7 +401,6 @@ body {
   font-family: 'Fraunces';
   font-size: 16px;
   height: 100%;
-  background-color: #FEFCF7;
 }
 
 main {
@@ -1187,43 +1186,5 @@ ul, ol {
   font-size: 16px;
   line-height: 26px;
   color: #FEFCF7;
-}
-
-.choice-subscribe__container {
-  padding: 0 85px;
-  margin-bottom: 168px;
-}
-
-.choice-subscribe__left-list {
-  width: 255px;
-}
-
-.choice-subscribe__left-item {
-  border-bottom: 1px solid #83888F;
-  opacity: 0.25;
-}
-
-.choice-subscribe__left-item-title {
-  font-family: 'Fraunces';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 24px;
-  line-height: 32px;
-  color: #333D4B;
-  margin: 24px 0;
-}
-
-.choice-subscribe__left-item-span {
-  color: #83888F;
-  margin-right: 25px;
-}
-
-.choice-subscribe__left-item:last-child {
-  border: none;
-  opacity: 1;
-}
-
-.choice-subscribe__left-item:first-child .choice-subscribe__left-item-span {
-  color: #0E8784;
 }
 /*# sourceMappingURL=main.css.map */
