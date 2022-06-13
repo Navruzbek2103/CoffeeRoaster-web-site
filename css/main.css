@@ -1029,9 +1029,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 425px) {
-  .footer .container {
-    background-color: pink;
-  }
   .footer__container {
     margin: 0 auto;
     max-width: 450px;
@@ -1065,9 +1062,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 376px) {
-  .footer .container {
-    background-color: orange;
-  }
   .footer__container {
     margin-bottom: 50px;
     padding: 25px 40px;
