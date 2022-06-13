@@ -8,8 +8,9 @@
   }
   &__logo-link{
     text-decoration: none;
-
   }
+
+
   &__logo-img{
     width: 236px;
     height: 26px;
@@ -32,6 +33,14 @@
       letter-spacing: 0.923077px;
       text-transform: uppercase;
       color: $grey;
+    }
+
+    &__link:hover{
+      color: $very-dark-grey;
+    }
+
+    &__link--active{
+      color: $very-dark-grey;
     }
 
     &__item:not(:last-child){

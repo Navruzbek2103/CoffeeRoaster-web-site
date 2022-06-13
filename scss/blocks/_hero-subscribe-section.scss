@@ -18,7 +18,7 @@
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
-    font-size: 72px;
+    font-size: 60px;
     line-height: 72px;
     color: $light-cream;
     margin-bottom: 24px;
@@ -33,5 +33,144 @@
     opacity: 0.8;
     color: $light-cream;
   }
+}
 
+@media only screen and (max-width: 1000px){
+  .hero-subscribe{
+    margin-bottom: 177px;
+
+    .container{
+      background-color: aqua;
+    }
+
+    &__container{
+      padding: 128px 83px;
+    }
+
+    &__wrapper{
+      max-width: 456px;
+      width: 100%;
+    }
+
+    &__wrapper-title {
+      font-size: 60px;
+      line-height: 65px;
+      margin-bottom: 22px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .hero-subscribe{
+    margin-bottom: 144px;
+
+    .container{
+      background-color: green;
+    }
+
+    &__container{
+      padding: 98px 60px;
+    }
+
+    &__wrapper{
+      max-width: 406px;
+    }
+
+    &__wrapper-title {
+      font-size: 48px;
+      line-height: 48px;
+      margin-bottom: 24px;
+    }
+
+    &__wrapper-text{
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 576px){
+  .hero-subscribe{
+    margin-bottom: 100px;
+
+    .container{
+      background-color: gold;
+    }
+
+    &__container{
+      padding: 78px 50px;
+    }
+
+    &__wrapper{
+      max-width: 336px;
+    }
+
+    &__wrapper-title {
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+@media only screen and (max-width: 410px){
+  .hero-subscribe{
+    margin-bottom: 90px;
+
+    .container{
+      background-color: magenta;
+    }
+
+    &__container{
+      padding: 48px 40px;
+    }
+
+    &__wrapper{
+      max-width: 256px;
+    }
+
+    &__wrapper-title {
+      font-size: 35px;
+      margin-bottom: 15px;
+    }
+
+    &__wrapper-text{
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 360px){
+  .hero-subscribe{
+    margin-bottom: 90px;
+
+    .container{
+      background-color: brown;
+    }
+
+    &__container{
+      padding: 48px 25px;
+    }
+
+    &__wrapper{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 256px;
+    }
+
+    &__wrapper-title {
+      font-size: 30px;
+      margin-bottom: 8px;
+    }
+
+    &__wrapper-text{
+      text-align: center;
+      font-size: 13px;
+      line-height: 18px;
+    }
+
+  }
 }
