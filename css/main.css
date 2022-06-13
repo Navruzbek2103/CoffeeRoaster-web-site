@@ -1355,9 +1355,6 @@ ul, ol {
   .hero-subscribe {
     margin-bottom: 177px;
   }
-  .hero-subscribe .container {
-    background-color: aqua;
-  }
   .hero-subscribe__container {
     padding: 128px 83px;
   }
@@ -1375,9 +1372,6 @@ ul, ol {
 @media only screen and (max-width: 768px) {
   .hero-subscribe {
     margin-bottom: 144px;
-  }
-  .hero-subscribe .container {
-    background-color: green;
   }
   .hero-subscribe__container {
     padding: 98px 60px;
@@ -1400,9 +1394,6 @@ ul, ol {
   .hero-subscribe {
     margin-bottom: 100px;
   }
-  .hero-subscribe .container {
-    background-color: gold;
-  }
   .hero-subscribe__container {
     padding: 78px 50px;
   }
@@ -1419,9 +1410,6 @@ ul, ol {
 @media only screen and (max-width: 410px) {
   .hero-subscribe {
     margin-bottom: 90px;
-  }
-  .hero-subscribe .container {
-    background-color: magenta;
   }
   .hero-subscribe__container {
     padding: 48px 40px;
@@ -1442,9 +1430,6 @@ ul, ol {
 @media only screen and (max-width: 360px) {
   .hero-subscribe {
     margin-bottom: 90px;
-  }
-  .hero-subscribe .container {
-    background-color: brown;
   }
   .hero-subscribe__container {
     padding: 48px 25px;
@@ -1559,9 +1544,6 @@ ul, ol {
   .plan-subscribe {
     margin-bottom: 159px;
   }
-  .plan-subscribe .container {
-    background-color: aqua;
-  }
   .plan-subscribe__list {
     padding: 91px 82px 107px 82px;
   }
@@ -1576,9 +1558,6 @@ ul, ol {
 @media only screen and (max-width: 950px) {
   .plan-subscribe {
     margin-bottom: 159px;
-  }
-  .plan-subscribe .container {
-    background-color: greenyellow;
   }
   .plan-subscribe__list {
     padding: 91px 80px 107px 80px;

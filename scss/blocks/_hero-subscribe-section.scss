@@ -39,10 +39,6 @@
   .hero-subscribe{
     margin-bottom: 177px;
 
-    .container{
-      background-color: aqua;
-    }
-
     &__container{
       padding: 128px 83px;
     }
@@ -63,10 +59,6 @@
 @media only screen and (max-width: 768px){
   .hero-subscribe{
     margin-bottom: 144px;
-
-    .container{
-      background-color: green;
-    }
 
     &__container{
       padding: 98px 60px;
@@ -93,10 +85,6 @@
   .hero-subscribe{
     margin-bottom: 100px;
 
-    .container{
-      background-color: gold;
-    }
-
     &__container{
       padding: 78px 50px;
     }
@@ -116,10 +104,6 @@
 @media only screen and (max-width: 410px){
   .hero-subscribe{
     margin-bottom: 90px;
-
-    .container{
-      background-color: magenta;
-    }
 
     &__container{
       padding: 48px 40px;
@@ -146,9 +130,7 @@
   .hero-subscribe{
     margin-bottom: 90px;
 
-    .container{
-      background-color: brown;
-    }
+
 
     &__container{
       padding: 48px 25px;
