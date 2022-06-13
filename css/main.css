@@ -1458,8 +1458,8 @@ ul, ol {
 
 @media only screen and (max-width: 375px) {
   .quality__container {
-    width: 370px;
-    padding: 220px 33px 38px;
+    max-width: 320px;
+    padding: 220px 20px 38px;
   }
   .quality__container-box {
     max-width: 279px;
@@ -1475,9 +1475,9 @@ ul, ol {
   .quality__container-img {
     position: absolute;
     bottom: 330px;
-    max-width: 300px;
+    max-width: 270px;
     width: 100%;
-    max-height: 320px;
+    max-height: 300px;
     margin-bottom: 80px;
   }
 }
