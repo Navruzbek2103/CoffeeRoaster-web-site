@@ -54,9 +54,7 @@
 }
 @media only screen and (max-width: 576px){
   .header{
-    .container{
-      background-color: aqua;
-    }
+
 
     &__container {
       padding: 40px 0 53px;
@@ -84,9 +82,7 @@
 
 @media only screen and (max-width: 520px){
   .header{
-    .container{
-      background-color: lightgreen;
-    }
+
 
     &__container{
       padding: 35px 0 35px;
@@ -118,9 +114,6 @@
 
 @media only screen and (max-width: 375px){
   .header{
-    .container{
-      background-color: bisque;
-    }
 
     &__container {
       padding: 32px 0 40px;

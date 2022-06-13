@@ -502,9 +502,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 576px) {
-  .header .container {
-    background-color: aqua;
-  }
   .header__container {
     padding: 40px 0 53px;
   }
@@ -526,9 +523,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 520px) {
-  .header .container {
-    background-color: lightgreen;
-  }
   .header__container {
     padding: 35px 0 35px;
     display: -webkit-box;
@@ -557,9 +551,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 375px) {
-  .header .container {
-    background-color: bisque;
-  }
   .header__container {
     padding: 32px 0 40px;
     display: -webkit-box;
@@ -2009,9 +2000,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 630px) {
-  .choice-subscribe__container {
-    background-color: yellow;
-  }
   .choice-subscribe__right-bottom {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
