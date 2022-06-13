@@ -1422,7 +1422,6 @@ ul, ol {
 @media only screen and (max-width: 768px) {
   .quality__inner-container {
     max-width: 689px;
-    min-width: 500px;
     width: 100%;
     padding: 0;
   }
@@ -1431,7 +1430,7 @@ ul, ol {
     padding: 260px 38px 88px;
   }
   .quality__container-box {
-    max-width: 540px;
+    max-width: 500px;
     width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1451,7 +1450,7 @@ ul, ol {
   .quality__container-img {
     position: absolute;
     bottom: 330px;
-    width: 573px;
+    width: 530px;
     max-height: 320px;
   }
 }

@@ -79,7 +79,6 @@
 
     &__inner-container{
       max-width: 689px;
-      min-width: 500px;
       width: 100%;
       padding: 0;
     }
@@ -90,7 +89,7 @@
     }
 
     &__container-box{
-      max-width: 540px;
+      max-width: 500px;
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -105,7 +104,7 @@
     &__container-img{
       position: absolute;
       bottom: 330px;
-      width: 573px;
+      width: 530px;
       max-height: 320px;
     }
   }
