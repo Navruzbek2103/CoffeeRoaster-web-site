@@ -1,5 +1,5 @@
 .headquarters{
-  padding: 168px 0;
+  margin-bottom: 120px;
 
   &__container{
     margin-left: 85px;
@@ -67,5 +67,74 @@
 
   &__item:nth-child(3)::before{
     background-image: url("./../../images/about-australia-map.svg");
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .headquarters{
+
+    &__inner-container{
+      max-width: 689px;
+      padding: 0;
+    }
+    &__container{
+      margin-left: 5px;
+    }
+
+
+    &__item{
+      width: 223px;
+      margin: 0 10px;
+    }
+
+    &__item-subtitle{
+      font-size: 24px;
+      margin-bottom: 21px;
+      white-space: nowrap;
+    }
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .headquarters{
+
+    &__inner-container{
+      max-width: 689px;
+      padding: 0;
+    }
+    &__container{
+      margin-left: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    &__list{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      // margin-bottom: 120px;
+    }
+
+    &__item{
+      max-width: 300px;
+      margin-right: 10px;
+      margin-bottom: 80px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .item__info-list{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+
+    &__item-subtitle{
+      font-size: 24px;
+      margin-bottom: 21px;
+      white-space: nowrap;
+    }
   }
 }

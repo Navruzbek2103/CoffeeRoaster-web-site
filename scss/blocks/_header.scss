@@ -118,7 +118,7 @@
     &__container {
       padding: 32px 0 40px;
       display: flex;
-      align-items: flex-start;
+      align-items: center;
     }
     &__logo-link{
       text-decoration: none;
@@ -133,15 +133,18 @@
         display: none;
       }
     }
-  }
-  &__burger-link{
-    display: inline-block;
-    text-decoration: none;
-  }
 
-  &__burger-img{
-    width: 16px;
-    height: 15px;
+    &__burger-link{
+      width: 10%;
+      border: 1px solid red;
+      display: flex;
+      text-decoration: none;
+    }
+
+    &__burger-img{
+      width: 16px;
+      height: 15px;
+    }
   }
 
 }
