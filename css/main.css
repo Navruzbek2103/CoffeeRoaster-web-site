@@ -1427,7 +1427,7 @@ ul, ol {
   }
   .quality__container {
     position: relative;
-    padding: 260px 38px 88px;
+    padding: 260px 28px 88px;
   }
   .quality__container-box {
     max-width: 500px;
@@ -1450,7 +1450,7 @@ ul, ol {
   .quality__container-img {
     position: absolute;
     bottom: 330px;
-    width: 530px;
+    width: 320px;
     max-height: 320px;
   }
 }

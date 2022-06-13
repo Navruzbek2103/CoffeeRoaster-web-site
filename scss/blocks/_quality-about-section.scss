@@ -85,7 +85,7 @@
 
     &__container{
       position: relative;
-      padding: 260px 38px 88px;
+      padding: 260px 28px 88px;
     }
 
     &__container-box{
@@ -104,7 +104,8 @@
     &__container-img{
       position: absolute;
       bottom: 330px;
-      width: 530px;
+      width: 320px;
+
       max-height: 320px;
     }
   }
