@@ -1339,6 +1339,9 @@ ul, ol {
     font-size: 30px;
     margin-bottom: 15px;
   }
+  .choice__list {
+    margin-top: 25px;
+  }
   .choice__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1385,11 +1388,11 @@ ul, ol {
     max-width: 270px;
   }
   .choice__wrapper-title {
-    font-size: 25px;
+    font-size: 28px;
   }
   .choice__wrapper-text {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 16px;
+    line-height: 24px;
   }
   .choice__item {
     max-width: 260px;

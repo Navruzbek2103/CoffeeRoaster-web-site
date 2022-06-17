@@ -323,6 +323,10 @@
       font-size: 30px;
       margin-bottom: 15px;
     }
+
+    &__list{
+      margin-top: 25px;
+    }
     &__item{
       display: flex;
       flex-direction: column;
@@ -371,12 +375,12 @@
     }
 
     &__wrapper-title{
-      font-size: 25px;
+      font-size: 28px;
     }
 
     &__wrapper-text{
-      font-size: 14px;
-      line-height: 20px;
+      font-size: 16px;
+      line-height: 24px;
     }
 
     &__item{
