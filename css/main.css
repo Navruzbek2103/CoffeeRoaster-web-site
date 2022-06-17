@@ -585,19 +585,35 @@ ul, ol {
   }
 }
 
-.hero .container-hero {
+.hero {
+  margin-bottom: 136px;
+}
+
+.hero__container {
   padding: 117px 85px;
   background-image: url("./../../images/index-hero-img.jpg");
   background-repeat: no-repeat;
-  background-position: center;
   background-size: contain;
+  background-position: center;
+  border-radius: 10px;
 }
 
-.hero__inner {
-  width: 493px;
+.hero__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  max-width: 493px;
+  width: 100%;
 }
 
-.hero__title {
+.hero__wrapper-title {
   font-family: 'Fraunces';
   font-style: normal;
   font-weight: 900;
@@ -607,7 +623,7 @@ ul, ol {
   margin-bottom: 32px;
 }
 
-.hero__text {
+.hero__wrapper-text {
   font-family: 'Barlow';
   font-style: normal;
   font-weight: 400;
@@ -618,7 +634,7 @@ ul, ol {
   margin-bottom: 56px;
 }
 
-.button {
+.hero .button {
   border: none;
   background-color: #0E8784;
   border-radius: 6px;
@@ -630,14 +646,139 @@ ul, ol {
   line-height: 25px;
   text-align: center;
   color: #FEFCF7;
+  text-decoration: none;
 }
 
-.button:hover {
+.hero .button:hover {
   background-color: #66D2CF;
 }
 
-.button:active {
+.hero .button:active {
   background-color: #E2DEDB;
+}
+
+@media only screen and (max-width: 1000px) {
+  .hero {
+    background-color: aqua;
+  }
+  .hero__container {
+    padding: 100px 65px;
+  }
+  .hero__wrapper-title {
+    font-size: 58px;
+    line-height: 62px;
+    margin-bottom: 27px;
+  }
+  .hero__wrapper-text {
+    margin-bottom: 40px;
+  }
+  .hero .button {
+    padding: 15px 30px;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  .hero {
+    background-color: orange;
+  }
+  .hero__container {
+    padding: 80px 55px;
+  }
+  .hero__wrapper {
+    max-width: 400px;
+  }
+  .hero__wrapper-title {
+    font-size: 55px;
+    line-height: 55px;
+    margin-bottom: 20px;
+  }
+  .hero__wrapper-text {
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 35px;
+  }
+  .hero .button {
+    padding: 14px 28px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero {
+    background-color: bisque;
+  }
+  .hero__container {
+    padding: 55px 45px;
+    background-image: url("./../../images/hero-img-689-1x.jpg");
+    background-size: 100%;
+  }
+  .hero__wrapper {
+    max-width: 400px;
+  }
+  .hero__wrapper-title {
+    font-size: 52px;
+    line-height: 52px;
+    margin-bottom: 20px;
+  }
+  .hero__wrapper-text {
+    margin-bottom: 30px;
+  }
+  .hero .button {
+    padding: 12px 25px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .hero {
+    background-color: lightgreen;
+  }
+  .hero__container {
+    padding: 60px 20px;
+    background-image: url("./../../images/hero-img-689-1x.jpg");
+    background-size: 100%;
+  }
+  .hero__wrapper-title {
+    font-size: 45px;
+    line-height: 45px;
+    margin-bottom: 17px;
+  }
+  .hero__wrapper-text {
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+  .hero .button {
+    font-size: 14px;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .hero {
+    background-color: yellow;
+  }
+  .hero__container {
+    padding: 60px 20px;
+    background-image: url("./../../images/hero-img-327-1x.jpg");
+  }
+  .hero__wrapper {
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    text-align: center;
+  }
+  .hero__wrapper-title {
+    font-size: 40px;
+    line-height: 40px;
+    margin-bottom: 20px;
+  }
+  .hero__wrapper-text {
+    line-height: 23px;
+    margin-bottom: 25px;
+  }
+  .hero .button {
+    font-size: 15px;
+    padding: 12px 24px;
+  }
 }
 
 .collection {
@@ -1139,7 +1280,6 @@ ul, ol {
 
 @media only screen and (max-width: 768px) {
   .hero-about {
-    background-color: aqua;
     margin-bottom: 144px;
   }
   .hero-about__inner-container {
@@ -1167,7 +1307,6 @@ ul, ol {
 
 @media only screen and (max-width: 375px) {
   .hero-about {
-    background-color: orange;
     margin-bottom: 144px;
   }
   .hero-about__container {

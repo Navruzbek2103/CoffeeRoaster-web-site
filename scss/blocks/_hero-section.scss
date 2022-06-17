@@ -1,50 +1,222 @@
 .hero{
-  .container-hero{
+  margin-bottom: 136px;
+  &__container{
     padding: 117px 85px;
     background-image: url("./../../images/index-hero-img.jpg");
     background-repeat: no-repeat;
-    background-position: center;
     background-size: contain;
+    background-position: center;
+    border-radius: 10px;
   }
-  &__inner{
-    width: 493px;
+
+  &__wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    max-width: 493px;
+    width: 100%;
   }
-  &__title{
+
+  &__wrapper-title{
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
     line-height: 72px;
-    color: #FEFCF7;
+    color: $light-cream;
     margin-bottom: 32px;
   }
-  &__text{
+
+  &__wrapper-text{
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 26px;
-    color: #FEFCF7;
+    color: $light-cream;
     opacity: 0.8;
     margin-bottom: 56px;
   }
+
+  .button{
+    border: none;
+    background-color: $dark-cyan;
+    border-radius: 6px;
+    padding: 16px 31px;
+    font-family: 'Fraunces';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: $light-cream;
+    text-decoration: none;
+  }
+  .button:hover{
+    background-color: $button-hover;
+  }
+  .button:active{
+    background-color: $button-active;
+  }
+
 }
-.button{
-  border: none;
-  background-color: $dark-cyan;
-  border-radius: 6px;
-  padding: 16px 31px;
-  font-family: 'Fraunces';
-  font-style: normal;
-  font-weight: 900;
-  font-size: 18px;
-  line-height: 25px;
-  text-align: center;
-  color: $light-cream;
+
+@media only screen and (max-width: 1000px){
+  .hero{
+    // margin-bottom: 136px;
+    // margin-bottom: 0;
+    background-color: aqua;
+
+    &__container{
+      padding: 100px 65px;
+    }
+
+    &__wrapper-title{
+      font-size: 58px;
+      line-height: 62px;
+      margin-bottom: 27px;
+    }
+
+    &__wrapper-text{
+      margin-bottom: 40px;
+    }
+
+    .button{
+      padding: 15px 30px;
+    }
+
+  }
 }
-.button:hover{
-  background-color: $button-hover;
+
+@media only screen and (max-width: 850px){
+  .hero{
+    // margin-bottom: 136px;
+    // margin-bottom: 0;
+    background-color: orange;
+
+    &__container{
+      padding: 80px 55px;
+    }
+
+    &__wrapper{
+      max-width: 400px;
+    }
+
+    &__wrapper-title{
+      font-size: 55px;
+      line-height: 55px;
+      margin-bottom: 20px;
+    }
+
+    &__wrapper-text{
+      font-size: 15px;
+      line-height: 25px;
+      margin-bottom: 35px;
+    }
+
+    .button{
+      padding: 14px 28px;
+    }
+
+  }
 }
-.button:active{
-  background-color: $button-active;
+
+@media only screen and (max-width: 768px){
+  .hero{
+    // margin-bottom: 136px;
+    // margin-bottom: 0;
+    background-color: bisque;
+
+    &__container{
+      padding: 55px 45px;
+      background-image: url("./../../images/hero-img-689-1x.jpg");
+      background-size: 100%;
+    }
+
+    &__wrapper{
+      max-width: 400px;
+    }
+
+    &__wrapper-title{
+      font-size: 52px;
+      line-height: 52px;
+      margin-bottom: 20px;
+    }
+
+    &__wrapper-text{
+      margin-bottom: 30px;
+    }
+
+    .button{
+      padding: 12px 25px;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .hero{
+    // margin-bottom: 136px;
+    // margin-bottom: 0;
+    background-color: lightgreen;
+
+    &__container{
+      padding: 60px 20px;
+      background-image: url("./../../images/hero-img-689-1x.jpg");
+      background-size: 100%;
+    }
+
+    &__wrapper-title{
+      font-size: 45px;
+      line-height: 45px;
+      margin-bottom: 17px;
+    }
+
+    &__wrapper-text{
+      font-size: 14px;
+      line-height: 20px;
+      margin-bottom: 20px;
+    }
+
+    .button{
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+
+  }
+}
+
+@media only screen and (max-width: 400px){
+  .hero{
+    // margin-bottom: 136px;
+    // margin-bottom: 0;
+    background-color: yellow;
+
+    &__container{
+      padding: 60px 20px;
+      background-image: url("./../../images/hero-img-327-1x.jpg");
+    }
+
+    &__wrapper{
+      align-items: center;
+      text-align: center;
+    }
+
+    &__wrapper-title{
+      font-size: 40px;
+      line-height: 40px;
+      margin-bottom: 20px;
+    }
+
+    &__wrapper-text{
+      line-height: 23px;
+      margin-bottom: 25px;
+    }
+
+    .button{
+      font-size: 15px;
+      padding: 12px 24px;
+    }
+
+  }
 }
