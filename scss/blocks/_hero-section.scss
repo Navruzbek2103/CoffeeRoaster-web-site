@@ -63,9 +63,6 @@
 
 @media only screen and (max-width: 1000px){
   .hero{
-    // margin-bottom: 136px;
-    // margin-bottom: 0;
-    background-color: aqua;
 
     &__container{
       padding: 100px 65px;
@@ -90,9 +87,6 @@
 
 @media only screen and (max-width: 850px){
   .hero{
-    // margin-bottom: 136px;
-    // margin-bottom: 0;
-    background-color: orange;
 
     &__container{
       padding: 80px 55px;
@@ -123,9 +117,6 @@
 
 @media only screen and (max-width: 768px){
   .hero{
-    // margin-bottom: 136px;
-    // margin-bottom: 0;
-    background-color: bisque;
 
     &__container{
       padding: 55px 45px;
@@ -156,14 +147,9 @@
 
 @media only screen and (max-width: 500px){
   .hero{
-    // margin-bottom: 136px;
-    // margin-bottom: 0;
-    background-color: lightgreen;
 
     &__container{
       padding: 60px 20px;
-      background-image: url("./../../images/hero-img-689-1x.jpg");
-      background-size: 100%;
     }
 
     &__wrapper-title{
@@ -188,9 +174,6 @@
 
 @media only screen and (max-width: 400px){
   .hero{
-    // margin-bottom: 136px;
-    // margin-bottom: 0;
-    background-color: yellow;
 
     &__container{
       padding: 60px 20px;
