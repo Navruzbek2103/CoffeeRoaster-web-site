@@ -1203,7 +1203,6 @@ ul, ol {
 
 @media only screen and (max-width: 1000px) {
   .choice {
-    background-color: palegreen;
     margin-bottom: 351px;
   }
   .choice__container {
@@ -1233,7 +1232,6 @@ ul, ol {
 
 @media only screen and (max-width: 868px) {
   .choice {
-    background-color: violet;
     margin-bottom: 351px;
   }
   .choice__container {
@@ -1297,7 +1295,6 @@ ul, ol {
 
 @media only screen and (max-width: 600px) {
   .choice {
-    background-color: blue;
     margin-bottom: 495px;
   }
   .choice__container {
@@ -1330,7 +1327,6 @@ ul, ol {
 
 @media only screen and (max-width: 460px) {
   .choice {
-    background-color: yellow;
     margin-bottom: 495px;
   }
   .choice__container {
@@ -1380,7 +1376,6 @@ ul, ol {
 
 @media only screen and (max-width: 375px) {
   .choice {
-    background-color: burlywood;
     margin-bottom: 595px;
   }
   .choice__container {
