@@ -1,10 +1,14 @@
 .process{
-  padding: 351px 0 200px 0;
+  margin-bottom: 200px;
 
-  .process-inner-container{
-    max-width: 1151px;
+
+  &__container{
+    max-width: 1045px;
+    width: 100%;
+    margin-left: 85px;
   }
-  &__title{
+
+  &__container-title{
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
@@ -15,21 +19,16 @@
   }
 
   &__list{
-    margin-bottom: 64px;
     display: flex;
     justify-content: space-between;
+    margin-bottom: 64px;
   }
-
-  &__item{
-    width: 350px;
-  }
-
-  &__item-line{
+  &__item-circle{
     position: relative;
     margin-bottom: 67px;
   }
 
-  &__item-line::before{
+  &__item-circle::before{
     content: "";
     width: 31px;
     height: 31px;
@@ -40,26 +39,29 @@
     z-index: 1;
   }
 
-  &__item-line::after{
-    content: "";
+  &__item-circle::after{
     position: absolute;
     top: 50%;
+    content: "";
     transform: translateY(-50%);
-    width: 100%;
+    width: 350px;
     height: 2px;
     display: inline-block;
     background-color: $pale-orange;
   }
-  &__item:last-child &__item-line::after{
+
+  &__item:last-child &__item-circle::after{
     display: none;
   }
 
-  &__item-inner{
-    width: 285px;
+  &__item-box{
+    max-width: 295px;
+    width: 100%;
+    padding-right: 10px;
 
   }
 
-  &__item-title{
+  &__item-heading{
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
@@ -69,18 +71,18 @@
     margin-bottom: 38px;
   }
 
-  &__item-subtitle{
-    padding-right: 30px;
-    margin-bottom: 42px;
+  &__item-subheading{
     font-family: 'Fraunces';
     font-style: normal;
     font-weight: 900;
     font-size: 32px;
     line-height: 36px;
     color: $dark-grey;
+    margin-bottom: 42px;
+    padding-right: 20px;
   }
 
-  &__item-subtext{
+  &__item-text{
     font-family: 'Barlow';
     font-style: normal;
     font-weight: 400;
@@ -88,5 +90,162 @@
     line-height: 26px;
     color: $dark-grey;
   }
+}
 
+@media only screen and (max-width: 1200px){
+  .process{
+    background-color: aqua;
+
+    &__container{
+      max-width: 950px;
+      margin-left: 35px;
+    }
+
+    &__container-title{
+      margin-bottom: 70px;
+    }
+
+    &__item-circle::before{
+      width: 30px;
+      height: 30px;
+    }
+
+    &__item-circle::after{
+      width: 323px;
+    }
+
+    &__item-box{
+      max-width: 275px;
+      padding-right: 10px;
+    }
+
+    &__item-heading{
+      font-size: 65px;
+      line-height: 65px;
+      margin-bottom: 33px;
+    }
+
+    &__item-subheading{
+      font-size: 30px;
+      line-height: 34px;
+      margin-bottom: 38px;
+      padding-right: 20px;
+    }
+
+    &__item-text{
+      line-height: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 1000px){
+  .process{
+    background-color: fuchsia;
+
+    &__container{
+      max-width: 860px;
+      margin-left: 22px;
+    }
+
+    &__container-title{
+      margin-bottom: 55px;
+    }
+
+    &__item-circle{
+      margin-bottom: 47px;
+    }
+
+    &__item-circle::before{
+      width: 27px;
+      height: 27px;
+    }
+
+    &__item-circle::after{
+      width: 310px;
+    }
+
+    &__item-box{
+      max-width: 250px;
+      padding-right: 10px;
+    }
+
+    &__item-subheading{
+      line-height: 32px;
+      margin-bottom: 30px;
+    }
+
+    &__item-text{
+      line-height: 25px;
+    }
+  }
+}
+
+@media only screen and (max-width: 890px){
+  .process{
+    background-color: yellow;
+
+    &__container{
+      max-width: 790px;
+      margin-left: 20px;
+    }
+
+    &__container-title{
+      margin-bottom: 50px;
+    }
+
+    &__item-circle::after{
+      width: 255px;
+    }
+  }
+}
+
+@media only screen and (max-width: 768px){
+  .process{
+    background-color: lightgreen;
+
+    &__container{
+      max-width: 750px;
+      margin-left: 15px;
+    }
+
+    &__container-title{
+      font-size: 24px;
+      margin-bottom: 40px;
+    }
+
+    &__item-circle{
+      margin-bottom: 40px;
+    }
+
+    &__item-circle::before{
+      width: 23px;
+      height: 23px;
+    }
+
+    &__item-circle::after{
+      width: 227px;
+    }
+
+    &__item-box{
+      max-width: 230px;
+    }
+
+    &__item-heading{
+      font-size: 72px;
+      line-height: 55px;
+      margin-bottom: 42px;
+    }
+
+    &__item-subheading{
+      font-size: 28px;
+      line-height: 30px;
+      margin-bottom: 38px;
+      padding-right: 10px;
+    }
+
+    &__item-text{
+      font-size: 15px;
+      line-height: 25px;
+    }
+  }
 }

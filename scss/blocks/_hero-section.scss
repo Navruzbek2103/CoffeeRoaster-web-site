@@ -38,27 +38,27 @@
     margin-bottom: 56px;
   }
 
-  .button{
-    border: none;
-    background-color: $dark-cyan;
-    border-radius: 6px;
-    padding: 16px 31px;
-    font-family: 'Fraunces';
-    font-style: normal;
-    font-weight: 900;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: $light-cream;
-    text-decoration: none;
-  }
-  .button:hover{
-    background-color: $button-hover;
-  }
-  .button:active{
-    background-color: $button-active;
-  }
 
+}
+.button{
+  border: none;
+  background-color: $dark-cyan;
+  border-radius: 6px;
+  padding: 16px 31px;
+  font-family: 'Fraunces';
+  font-style: normal;
+  font-weight: 900;
+  font-size: 18px;
+  line-height: 25px;
+  text-align: center;
+  color: $light-cream;
+  text-decoration: none;
+}
+.button:hover{
+  background-color: $button-hover;
+}
+.button:active{
+  background-color: $button-active;
 }
 
 @media only screen and (max-width: 1000px){

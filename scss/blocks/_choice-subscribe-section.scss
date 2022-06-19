@@ -1,5 +1,6 @@
 .choice-subscribe{
   margin-bottom: 168px;
+  // border: 1px solid red;
 
   &__inner-wrapper{
     max-width: 1150px;
@@ -82,6 +83,21 @@
 
   &__right-item{
     margin-bottom: 88px;
+
+    & > .choice-subscribe__right-bottom{
+      display: none;
+    }
+  }
+
+  &__right-item--active{
+
+    & > .choice-subscribe__right-bottom{
+      display: flex;
+    }
+  }
+
+  &__right-item--active &__right-btn{
+    transform: rotate(0deg);
   }
 
   &__right-top{
@@ -113,14 +129,6 @@
     background-size: contain;
     background-position: center;
     transform: rotate(180deg);
-  }
-
-  &__right-item--active &__right-bottom{
-    display: flex;
-  }
-
-  &__right-item--active &__right-btn{
-    transform: rotate(0deg);
   }
 
   &__right-bottom{
