@@ -1515,9 +1515,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 1200px) {
-  .process {
-    background-color: aqua;
-  }
   .process__container {
     max-width: 950px;
     margin-left: 35px;
@@ -1553,9 +1550,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 1000px) {
-  .process {
-    background-color: fuchsia;
-  }
   .process__container {
     max-width: 860px;
     margin-left: 22px;
@@ -1587,9 +1581,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 890px) {
-  .process {
-    background-color: yellow;
-  }
   .process__container {
     max-width: 790px;
     margin-left: 20px;
@@ -1603,9 +1594,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 768px) {
-  .process {
-    background-color: lightgreen;
-  }
   .process__container {
     max-width: 750px;
     margin-left: 15px;
@@ -1645,9 +1633,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 660px) {
-  .process {
-    background-color: dimgray;
-  }
   .process__container {
     max-width: 610px;
     margin-left: 10px;
@@ -1683,9 +1668,6 @@ ul, ol {
 }
 
 @media only screen and (max-width: 510px) {
-  .process {
-    background-color: gold;
-  }
   .process__container {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1720,11 +1702,20 @@ ul, ol {
     margin-bottom: 0px;
     display: none;
   }
+  .process__item-box {
+    max-width: 335px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
   .process__item-subheading {
-    font-size: 24px;
-    line-height: 28px;
-    margin-bottom: 30px;
-    padding-right: 10px;
     white-space: nowral;
   }
   .process__item-text {
